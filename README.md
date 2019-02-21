@@ -1,2 +1,3 @@
 # MSA---test-automation
-This project consists in the automation test on the MSA-app.
+Al momento il progetto è cosi strutturato:
+- sono presenti i test di Guida TV (solo nome);
