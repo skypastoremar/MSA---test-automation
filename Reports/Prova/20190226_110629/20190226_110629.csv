@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prova,,PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi\nLogin_1_LOGIN_Correct_DTH_Wi-Fi,2019-02-26 11:06:32,2019-02-26 11:07:57,"1m - 25,185s",FAILED
+,,,,,,
+Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi,,"Start msa application.
+path application: C:\Users\MSA-testautomation\59.apk",2019-02-26 11:06:32,2019-02-26 11:07:01,"28,985s",PASSED
+"startApplication(""C:\Users\MSA-testautomation\59.apk"", false)",,,2019-02-26 11:06:33,2019-02-26 11:07:01,"28,449s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR_DTH_Wi-Fi,,Navigazione delle sezioni presenti nella homepage di Guida Tv. Check della sezione di Programmazione e della sezione di Sky On Demand.,2019-02-26 11:07:01,2019-02-26 11:07:56,"55,083s",FAILED
+"startApplication(""C:\Users\MSA-testautomation\59.apk"", true)",,"Start app.
+",2019-02-26 11:07:02,2019-02-26 11:07:56,"54,683s",FAILED
