@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('CTA/aaa'), 60)
+Mobile.tap(findTestObject('null'), 60)
 
 Mobile.waitForElementPresent(findTestObject('Login section elements/Accedi con il tuo Sky iD'), 30)
 

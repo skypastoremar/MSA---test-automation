@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginCorretta,,,2019-02-28 16:31:06,2019-02-28 16:32:37,"1m - 31,346s",FAILED
+,,,,,,
+Test Cases/Utilites/Utilities_2_FUNCTIONALITY_StartAppUnLogged,,,2019-02-28 16:31:06,2019-02-28 16:31:30,"24,256s",PASSED
+startApplication,,Start application,2019-02-28 16:31:06,2019-02-28 16:31:30,"23,163s",PASSED
+waitForElementPresent,,,2019-02-28 16:31:30,2019-02-28 16:31:30,"0,736s",PASSED
+,,,,,,
+Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_Accedi,,Tap su accedi,2019-02-28 16:31:30,2019-02-28 16:31:33,"2,243s",FAILED
+tap,,Tap accedi,2019-02-28 16:31:30,2019-02-28 16:31:33,"2,018s",FAILED
+,,,,,,
+Test Cases/Login/Login_1_LOGIN_Correct,,,2019-02-28 16:31:33,2019-02-28 16:32:36,"1m - 3,952s",FAILED
+tap,,,2019-02-28 16:31:33,2019-02-28 16:32:36,"1m - 3,728s",FAILED
