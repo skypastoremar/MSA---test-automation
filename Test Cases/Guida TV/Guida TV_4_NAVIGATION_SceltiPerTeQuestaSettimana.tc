@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigazione della sezione &quot;Scelti per te questa settimana&quot;</description>
+   <name>Guida TV_4_NAVIGATION_SceltiPerTeQuestaSettimana</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9691ba2-d1d5-464b-ac98-dd96e34a2d9c</testCaseGuid>
+</TestCaseEntity>

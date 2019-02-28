@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prova,,PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi\nLogin_1_LOGIN_Correct_DTH_Wi-Fi,2019-02-27 16:24:03,2019-02-27 16:24:52,"48,371s",INCOMPLETE
+,,,,,,
+Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged,,"Start msa application.
+path application: C:\Users\MSA-testautomation\59.apk",2019-02-27 16:24:04,2019-02-27 16:24:35,"31,632s",PASSED
+"startApplication(""C:\\Users\\MSA-testautomation\\59.apk"", false, CONTINUE_ON_FAILURE)",,Start app MSA con utente già loggato.,2019-02-27 16:24:04,2019-02-27 16:24:32,"27,849s",PASSED
+"verifyElementExist(findTestObject(""Bottom Bar Elements/Home""), 30)",,Verifica la presenza dell'icona Home nella bottom bar.,2019-02-27 16:24:32,2019-02-27 16:24:35,"3,195s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV,,Dalla homepage atterro nella sezione di Guida Tv ed effettuo un controolo sulla label della top bar.,2019-02-27 16:24:35,2019-02-27 16:24:41,"5,871s",PASSED
+"tap(findTestObject(""Bottom Bar Elements/Guida TV""), 60)",,Effettua tap sulla icona di Guida Tv nella bottom bar.,2019-02-27 16:24:36,2019-02-27 16:24:37,"1,555s",PASSED
+"waitForElementPresent(findTestObject(""Guida Tv/Hero Elements/Immagine""), 30)",,,2019-02-27 16:24:37,2019-02-27 16:24:40,"3,087s",PASSED
+"verifyElementExist(findTestObject(""Top Bar elements/GUIDA TV""), 30)",,Check sulla label GUIDA TV nella top bar.,2019-02-27 16:24:40,2019-02-27 16:24:41,"0,908s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR,,Navigazione delle sezioni presenti nella homepage di Guida Tv. Check della sezione di Programmazione e della sezione di Sky On Demand.,2019-02-27 16:24:41,2019-02-27 16:24:47,"6,251s",PASSED
+"waitForElementPresent(findTestObject(""Guida Tv/Section Elements/Scelti per te questa settimana""), 30)",,Load della sezione Scelti per te questa settimana.,2019-02-27 16:24:41,2019-02-27 16:24:42,"0,747s",PASSED
+"verifyElementExist(findTestObject(""Navigation Bar Elements/Programmazione""), 30)",,Verifica della label Programmazione.,2019-02-27 16:24:42,2019-02-27 16:24:43,"0,374s",PASSED
+"verifyElementExist(findTestObject(""Top Bar elements/Profile""), 30)",,Verifica della icona di Profile nella top bar.,2019-02-27 16:24:43,2019-02-27 16:24:43,"0,364s",PASSED
+"verifyElementExist(findTestObject(""Top Bar elements/Search""), 30)",,Verifica della icona di Search nella top bar.,2019-02-27 16:24:43,2019-02-27 16:24:43,"0,335s",PASSED
+"verifyElementExist(findTestObject(""Top Bar elements/Assistenza""), 30)",,Verifica della icona di Assistenza nella top bar.,2019-02-27 16:24:43,2019-02-27 16:24:44,"0,335s",PASSED
+"verifyElementText(findTestObject(""Top Bar elements/GUIDA TV""), ""GUIDA TV"")",,Verifica del title (Guida Tv) della top bar.,2019-02-27 16:24:44,2019-02-27 16:24:44,"0,404s",PASSED
+"tap(findTestObject(""Navigation Bar Elements/Sky On Demand""), 60)",,Tap nella section di Sky On Demand.,2019-02-27 16:24:44,2019-02-27 16:24:45,"1,167s",PASSED
+"waitForElementPresent(findTestObject(""Guida Tv/Section Elements/SCELTI PER TE""), 30)",,Load della sezione SCELTI PER TE.,2019-02-27 16:24:45,2019-02-27 16:24:45,"0,344s",PASSED
+"verifyElementExist(findTestObject(""Navigation Bar Elements/Sky On Demand""), 30)",,Verifica della label Sky On Demand.,2019-02-27 16:24:45,2019-02-27 16:24:46,"0,340s",PASSED
+"tap(findTestObject(""Navigation Bar Elements/Programmazione""), 60)",,"Effettuo un tap nella sezione Programmazione.
+",2019-02-27 16:24:46,2019-02-27 16:24:47,"1,177s",PASSED
+"waitForElementPresent(findTestObject(""Guida Tv/Section Elements/Scelti per te questa settimana""), 30)",,Load della sezione Scelti per te questa settimana.,2019-02-27 16:24:47,2019-02-27 16:24:47,"0,397s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero,,Controllo degli elementi presenti nel contenuto in evidenza.,2019-02-27 16:24:47,2019-02-27 16:24:52,"4,195s",PASSED
+"verifyElementAttributeValue(findTestObject(""Guida Tv/Hero Elements/Immagine""), ""resource-id"", ""it.sky.msa:id/heroImageImageView"", 60)",,Verifica se esite l'immagine del contenuto in evidenza.,2019-02-27 16:24:48,2019-02-27 16:24:48,"0,398s",PASSED
+delay(2),,,2019-02-27 16:24:48,2019-02-27 16:24:50,"2,038s",PASSED
+"verifyElementText(findTestObject(""Guida Tv/Hero Elements/IN EVIDENZA""), ""IN EVIDENZA"")",,"Verifica se esite la label ""IN EVIDENZA""",2019-02-27 16:24:50,2019-02-27 16:24:51,"0,479s",PASSED
+"verifyElementExist(findTestObject(""Guida Tv/Hero Elements/Titolo del contenuto""), 30)",,Verifica che esiste il titolo del contenuto in evidenza.,2019-02-27 16:24:51,2019-02-27 16:24:51,"0,363s",PASSED
+"verifyElementExist(findTestObject(""Guida Tv/Hero Elements/Programmazione""), 30)",,Verifica che è presente la programmazione del contenuto.,2019-02-27 16:24:51,2019-02-27 16:24:51,"0,323s",PASSED
+"verifyElementAttributeValue(findTestObject(""Guida Tv/Hero Elements/Logo canale""), ""resource-id"", ""it.sky.msa:id/heroChannelLogoImageView"", 60)",,Verifica se esiste l'immagine del logo canale nel contenuto in evidenza.,2019-02-27 16:24:51,2019-02-27 16:24:52,"0,359s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_4_NAVIGATION_SceltiPerTeQuestaSettimana,,"Navigazione della sezione ""Scelti per te questa settimana""",2019-02-27 16:24:52,2019-02-27 16:24:52,"0,006s",PASSED

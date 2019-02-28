@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prova,,PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi\nLogin_1_LOGIN_Correct_DTH_Wi-Fi,2019-02-27 11:53:52,2019-02-27 11:54:48,"56,237s",FAILED
+,,,,,,
+Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp,,"Start msa application.
+path application: C:\Users\MSA-testautomation\59.apk",2019-02-27 11:53:52,2019-02-27 11:54:46,"54,460s",FAILED
+"startApplication(""C:\\Users\\MSA-testautomation\\59.apk"", false, CONTINUE_ON_FAILURE)",,,2019-02-27 11:53:53,2019-02-27 11:54:46,"53,537s",FAILED
+"verifyElementExist(findTestObject(""Prelogin elements/Benvenuto in MySkyApp""), 30)",,,2019-02-27 11:54:46,2019-02-27 11:54:46,"0,265s",FAILED
+,,,,,,
+Test Cases/Pre Login/PreLogin_2_FUNCTIONALITY_Accedi,,Tap su accedi,2019-02-27 11:54:46,2019-02-27 11:54:47,"0,925s",FAILED
+"tap(findTestObject(""CTA/ACCEDI""), 30)",,,2019-02-27 11:54:47,2019-02-27 11:54:47,"0,122s",FAILED

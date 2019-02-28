@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prova,,PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi\nLogin_1_LOGIN_Correct_DTH_Wi-Fi,2019-02-27 10:08:10,2019-02-27 10:08:13,"2,718s",FAILED
+,,,,,,
+Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp,,"Start msa application.
+path application: C:\Users\MSA-testautomation\59.apk",2019-02-27 10:08:11,2019-02-27 10:08:12,"1,324s",FAILED
+"startApplication(""C:\Users\MSA-testautomation\59.apk"", false)",,,2019-02-27 10:08:12,2019-02-27 10:08:12,"0,383s",FAILED
+,,,,,,
+Test Cases/Pre Login/PreLogin_2_FUNCTIONALITY_Accedi,,Tap su accedi,2019-02-27 10:08:12,2019-02-27 10:08:13,"0,650s",FAILED
+"tap(findTestObject(""CTA/ACCEDI""), 0)",,,2019-02-27 10:08:12,2019-02-27 10:08:13,"0,164s",FAILED

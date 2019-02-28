@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prova,,PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi\nLogin_1_LOGIN_Correct_DTH_Wi-Fi,2019-02-26 14:50:36,2019-02-26 14:51:28,"51,980s",PASSED
+,,,,,,
+Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi,,"Start msa application.
+path application: C:\Users\MSA-testautomation\59.apk",2019-02-26 14:50:37,2019-02-26 14:51:05,"28,726s",PASSED
+"startApplication(""C:\Users\MSA-testautomation\59.apk"", false)",,,2019-02-26 14:50:37,2019-02-26 14:51:05,"28,161s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi,,Dalla homepage atterro nella sezione di Guida Tv ed effettuo un controolo sulla label della top bar.,2019-02-26 14:51:05,2019-02-26 14:51:16,"10,971s",PASSED
+"tap(findTestObject(""Bottom Bar Elements/Guida TV""), 0)",,,2019-02-26 14:51:06,2019-02-26 14:51:10,"4,639s",PASSED
+delay(5),,,2019-02-26 14:51:10,2019-02-26 14:51:15,"5,028s",PASSED
+"verifyElementExist(findTestObject(""Top Bar elements/GUIDA TV""), 0)",,,2019-02-26 14:51:15,2019-02-26 14:51:16,"0,999s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi,,Controllo degli elementi presenti nel contenuto in evidenza.,2019-02-26 14:51:16,2019-02-26 14:51:19,"2,571s",PASSED
+"verifyElementAttributeValue(findTestObject(""Guida Tv/Hero Elements/Immagine""), ""resource-id"", ""it.sky.msa:id/heroImageImageView"", 0)",,Check se esite l'immagine del contenuto in evidenza.,2019-02-26 14:51:17,2019-02-26 14:51:17,"0,495s",PASSED
+"verifyElementText(findTestObject(""Guida Tv/Hero Elements/IN EVIDENZA""), ""IN EVIDENZA"")",,"Check se esite la label ""IN EVIDENZA""",2019-02-26 14:51:17,2019-02-26 14:51:18,"0,491s",PASSED
+"verifyElementExist(findTestObject(""Guida Tv/Hero Elements/Titolo del contenuto""), 0)",,Verifica che esiste il titolo del contenuto in evidenza.,2019-02-26 14:51:18,2019-02-26 14:51:18,"0,343s",PASSED
+"verifyElementExist(findTestObject(""Guida Tv/Hero Elements/Programmazione""), 0)",,Verifica che è presente la programmazione del contenuto.,2019-02-26 14:51:18,2019-02-26 14:51:18,"0,392s",PASSED
+"getText(findTestObject(""Guida Tv/Hero Elements/Programmazione""), 0)",,,2019-02-26 14:51:18,2019-02-26 14:51:19,"0,532s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_4_NAVIGATION_SceltiPerTeQuestaSettimana_DTH_Wi-Fi,,"Navigazione della sezione ""Scelti per te questa settimana""",2019-02-26 14:51:19,2019-02-26 14:51:28,"8,722s",PASSED
+"swipe(0, 0, 0, 5000)",,,2019-02-26 14:51:19,2019-02-26 14:51:22,"2,470s",PASSED
+"getText(findTestObject(""Guida Tv/Section Elements/Scelti per te questa settimana""), 0)",,,2019-02-26 14:51:22,2019-02-26 14:51:22,"0,494s",PASSED
+"verifyElementText(findTestObject(""Guida Tv/Section Elements/Scelti per te questa settimana""), ""Scelti per te questa settimana"")",,,2019-02-26 14:51:22,2019-02-26 14:51:23,"0,413s",PASSED
+"swipe(0, 0, 100, 0)",,,2019-02-26 14:51:23,2019-02-26 14:51:25,"2,511s",PASSED
+delay(0),,,2019-02-26 14:51:25,2019-02-26 14:51:25,"0,001s",PASSED
+"swipe(0, 0, -100, 0)",,,2019-02-26 14:51:25,2019-02-26 14:51:28,"2,575s",PASSED

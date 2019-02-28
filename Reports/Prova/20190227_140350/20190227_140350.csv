@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prova,,PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi\nLogin_1_LOGIN_Correct_DTH_Wi-Fi,2019-02-27 14:03:53,2019-02-27 14:04:59,"1m - 5,951s",PASSED
+,,,,,,
+Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged,,"Start msa application.
+path application: C:\Users\MSA-testautomation\59.apk",2019-02-27 14:03:53,2019-02-27 14:04:26,"32,536s",PASSED
+"startApplication(""C:\\Users\\MSA-testautomation\\59.apk"", false, CONTINUE_ON_FAILURE)",,,2019-02-27 14:03:54,2019-02-27 14:04:22,"28,484s",PASSED
+"verifyElementExist(findTestObject(""Bottom Bar Elements/Home""), 30)",,,2019-02-27 14:04:22,2019-02-27 14:04:26,"3,497s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV,,Dalla homepage atterro nella sezione di Guida Tv ed effettuo un controolo sulla label della top bar.,2019-02-27 14:04:26,2019-02-27 14:04:58,"32,446s",PASSED
+"tap(findTestObject(""Bottom Bar Elements/Guida TV""), 0)",,,2019-02-27 14:04:26,2019-02-27 14:04:28,"1,737s",PASSED
+"waitForElementPresent(findTestObject(""Guida Tv/Hero Elements/Immagine""), 30)",,,2019-02-27 14:04:28,2019-02-27 14:04:58,"30,088s",PASSED
+"verifyElementExist(findTestObject(""Top Bar elements/GUIDA TV""), 0)",,,2019-02-27 14:04:58,2019-02-27 14:04:58,"0,352s",PASSED

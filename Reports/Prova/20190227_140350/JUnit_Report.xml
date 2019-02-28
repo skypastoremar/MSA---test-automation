@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prova" time="65" tests="2" failures="0" errors="0">
+   <testsuite name="Prova" tests="2" failures="0" errors="0" time="65" timestamp="2019-02-27 14:03:53" hostname="marco - 10.25.208.80" id="Test Suites/Prova">
+      <properties>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_140350"/>
+         <property name="logFiles" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_140350\\appium.log, C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_140350\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="marco - 10.25.208.80"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G935F"/>
+         <property name="hostAddress" value="10.25.208.80"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="9885f7504651473733"/>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged" classname="Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged" status="PASSED">
+         <system-out><![CDATA[2019-02-27 14:03:53 - [TEST_CASE][PASSED] - Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged: Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged
+
+2019-02-27 14:03:54 - [TEST_STEP][PASSED] - startApplication("C:\\Users\\MSA-testautomation\\59.apk", false, CONTINUE_ON_FAILURE): Started app at: 'C:\Users\MSA-testautomation\59.apk'
+
+2019-02-27 14:04:00 - [MESSAGE][INFO] - Appium server started on port 59.486
+
+2019-02-27 14:04:22 - [MESSAGE][PASSED] - Started app at: 'C:\Users\MSA-testautomation\59.apk'
+
+2019-02-27 14:04:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Bottom Bar Elements/Home"), 30): Element 'Object Repository/Bottom Bar Elements/Home' is exist
+
+2019-02-27 14:04:26 - [MESSAGE][PASSED] - Element 'Object Repository/Bottom Bar Elements/Home' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV" classname="Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV" status="PASSED">
+         <system-out><![CDATA[2019-02-27 14:04:26 - [TEST_CASE][PASSED] - Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV: Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV
+
+2019-02-27 14:04:26 - [TEST_STEP][PASSED] - tap(findTestObject("Bottom Bar Elements/Guida TV"), 0): Tapped on element 'Object Repository/Bottom Bar Elements/Guida TV'
+
+2019-02-27 14:04:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-02-27 14:04:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Bottom Bar Elements/Guida TV'
+
+2019-02-27 14:04:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Guida Tv/Hero Elements/Immagine"), 30): Object Object Repository/Guida Tv/Hero Elements/Immagine not found
+
+2019-02-27 14:04:58 - [MESSAGE][WARNING] - Object Object Repository/Guida Tv/Hero Elements/Immagine not found
+
+2019-02-27 14:04:58 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Top Bar elements/GUIDA TV"), 0): Element 'Object Repository/Top Bar elements/GUIDA TV' is exist
+
+2019-02-27 14:04:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-02-27 14:04:58 - [MESSAGE][PASSED] - Element 'Object Repository/Top Bar elements/GUIDA TV' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-27 14:03:53 - [TEST_SUITE][PASSED] - Prova: Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

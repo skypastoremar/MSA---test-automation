@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Controllo degli elementi presenti nel contenuto in evidenza.</description>
+   <name>Guida TV_2_NAVIGATION_Hero</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05db6e4b-390b-43ba-b684-700ead0e1a4e</testCaseGuid>
+</TestCaseEntity>

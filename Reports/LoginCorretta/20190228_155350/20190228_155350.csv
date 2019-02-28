@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginCorretta,,,2019-02-28 15:53:52,2019-02-28 15:55:20,"1m - 28,831s",FAILED
+,,,,,,
+Test Cases/Utilites/Utilities_2_FUNCTIONALITY_StartAppUnLogged,,,2019-02-28 15:53:52,2019-02-28 15:54:16,"23,655s",FAILED
+startApplication,,Start application,2019-02-28 15:53:52,2019-02-28 15:54:15,"22,859s",PASSED
+waitForElementPresent,,Check label Benvenuti in MySkyApp,2019-02-28 15:54:15,2019-02-28 15:54:16,"0,403s",FAILED
+,,,,,,
+Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_Accedi,,Tap su accedi,2019-02-28 15:54:16,2019-02-28 15:54:16,"0,354s",FAILED
+waitForElementPresent,,Check label Benvenuti in MySkyApp,2019-02-28 15:54:16,2019-02-28 15:54:16,"0,028s",FAILED
+,,,,,,
+Test Cases/Login/Login_1_LOGIN_Correct,,,2019-02-28 15:54:16,2019-02-28 15:55:20,"1m - 4,024s",FAILED
+tap,,,2019-02-28 15:54:16,2019-02-28 15:55:20,"1m - 3,705s",FAILED

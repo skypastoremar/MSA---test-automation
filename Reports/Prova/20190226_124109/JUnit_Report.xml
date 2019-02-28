@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prova" time="37" tests="1" failures="1" errors="1">
+   <testsuite name="Prova" tests="1" failures="1" errors="1" time="37" timestamp="2019-02-26 12:41:12" hostname="marco - 10.25.208.80" id="Test Suites/Prova">
+      <properties>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190226_124109"/>
+         <property name="logFiles" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190226_124109\\appium.log, C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190226_124109\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190226_124109\\1551181308161.png"/>
+         <property name="hostName" value="marco - 10.25.208.80"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G935F"/>
+         <property name="hostAddress" value="10.25.208.80"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="9885f7504651473733"/>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi" classname="Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi" status="PASSED">
+         <system-out><![CDATA[2019-02-26 12:41:13 - [TEST_CASE][PASSED] - Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi: Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi
+
+2019-02-26 12:41:13 - [TEST_STEP][PASSED] - startApplication("C:\Users\MSA-testautomation\59.apk", false): Started app at: 'C:\Users\MSA-testautomation\59.apk'
+
+2019-02-26 12:41:19 - [MESSAGE][INFO] - Appium server started on port 61.506
+
+2019-02-26 12:41:42 - [MESSAGE][PASSED] - Started app at: 'C:\Users\MSA-testautomation\59.apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi" classname="Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for element to have attribute with value (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.waitForElementAttributeValue(WaitForElementAttributeValueKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.execute(WaitForElementAttributeValueKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementAttributeValue(MobileBuiltInKeywords.groovy:1182)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementAttributeValue$2.call(Unknown Source)
+	at Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi.run(Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551181269833.run(TempTestSuite1551181269833.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-26 12:41:42 - [TEST_CASE][FAILED] - Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi: Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for element to have attribute with value (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.waitForElementAttributeValue(WaitForElementAttributeValueKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.execute(WaitForElementAttributeValueKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementAttributeValue(MobileBuiltInKeywords.groovy:1182)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementAttributeValue$2.call(Unknown Source)
+	at Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi.run(Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551181269833.run(TempTestSuite1551181269833.groovy:36)
+
+
+2019-02-26 12:41:42 - [TEST_STEP][PASSED] - tap(findTestObject("Bottom Bar Elements/Guida TV"), 0): Tapped on element 'Object Repository/Bottom Bar Elements/Guida TV'
+
+2019-02-26 12:41:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-26 12:41:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Bottom Bar Elements/Guida TV'
+
+2019-02-26 12:41:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Top Bar elements/GUIDA TV"), 0): Element 'Object Repository/Top Bar elements/GUIDA TV' is exist
+
+2019-02-26 12:41:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-26 12:41:48 - [MESSAGE][PASSED] - Element 'Object Repository/Top Bar elements/GUIDA TV' is exist
+
+2019-02-26 12:41:48 - [TEST_STEP][FAILED] - waitForElementAttributeValue(findTestObject(null), "text", "IN EVIDENZA", 0): waitForElementAttributeValue(findTestObject(null), "text", "IN EVIDENZA", 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for element to have attribute with value (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.waitForElementAttributeValue(WaitForElementAttributeValueKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.execute(WaitForElementAttributeValueKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementAttributeValue(MobileBuiltInKeywords.groovy:1182)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementAttributeValue$2.call(Unknown Source)
+	at Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi.run(Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551181269833.run(TempTestSuite1551181269833.groovy:36)
+
+
+2019-02-26 12:41:48 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-26 12:41:48 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-02-26 12:41:49 - [MESSAGE][FAILED] - Unable to wait for element to have attribute with value (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190226_124109\\1551181308161.png]]
+
+2019-02-26 12:41:49 - [MESSAGE][FAILED] - waitForElementAttributeValue(findTestObject(null), "text", "IN EVIDENZA", 0) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for element to have attribute with value (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.waitForElementAttributeValue(WaitForElementAttributeValueKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.execute(WaitForElementAttributeValueKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementAttributeValue(MobileBuiltInKeywords.groovy:1182)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementAttributeValue$2.call(Unknown Source)
+	at Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi.run(Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551181269833.run(TempTestSuite1551181269833.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-26 12:41:42 - [TEST_CASE][FAILED] - Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi: Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for element to have attribute with value (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.waitForElementAttributeValue(WaitForElementAttributeValueKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.execute(WaitForElementAttributeValueKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementAttributeValue(MobileBuiltInKeywords.groovy:1182)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementAttributeValue$2.call(Unknown Source)
+	at Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi.run(Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551181269833.run(TempTestSuite1551181269833.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi" classname="Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi" status="ERROR">
+         <error type="ERROR" message="Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/marco/Katalon%20Studio/MSA-testautomation/Scripts/Guida%20TV/Guida%20TV_2_NAVIGATION_Hero_DTH_Wi-Fi/Script1551177332824.groovy: 15: unable to resolve class time
+ @ line 15, column 1.
+   import time
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551181269833.run(TempTestSuite1551181269833.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-26 12:41:49 - [TEST_CASE][ERROR] - Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi: Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/marco/Katalon%20Studio/MSA-testautomation/Scripts/Guida%20TV/Guida%20TV_2_NAVIGATION_Hero_DTH_Wi-Fi/Script1551177332824.groovy: 15: unable to resolve class time
+ @ line 15, column 1.
+   import time
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551181269833.run(TempTestSuite1551181269833.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-26 12:41:49 - [TEST_CASE][ERROR] - Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi: Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/marco/Katalon%20Studio/MSA-testautomation/Scripts/Guida%20TV/Guida%20TV_2_NAVIGATION_Hero_DTH_Wi-Fi/Script1551177332824.groovy: 15: unable to resolve class time
+ @ line 15, column 1.
+   import time
+   ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551181269833.run(TempTestSuite1551181269833.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-26 12:41:12 - [TEST_SUITE][FAILED] - Prova: Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for element to have attribute with value (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.waitForElementAttributeValue(WaitForElementAttributeValueKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.execute(WaitForElementAttributeValueKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementAttributeValue(MobileBuiltInKeywords.groovy:1182)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementAttributeValue$2.call(Unknown Source)
+	at Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi.run(Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551181269833.run(TempTestSuite1551181269833.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-26 12:41:12 - [TEST_SUITE][FAILED] - Prova: Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for element to have attribute with value (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.waitForElementAttributeValue(WaitForElementAttributeValueKeyword.groovy:100)
+	at com.kms.katalon.core.mobile.keyword.builtin.WaitForElementAttributeValueKeyword.execute(WaitForElementAttributeValueKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.waitForElementAttributeValue(MobileBuiltInKeywords.groovy:1182)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$waitForElementAttributeValue$2.call(Unknown Source)
+	at Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi.run(Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551181269833.run(TempTestSuite1551181269833.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

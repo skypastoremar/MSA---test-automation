@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tap su accedi</description>
+   <name>PreLogin_1_FUNCTIONALITY_Accedi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef0339df-a640-434c-9a08-262c2ffe8135</testCaseGuid>
+</TestCaseEntity>

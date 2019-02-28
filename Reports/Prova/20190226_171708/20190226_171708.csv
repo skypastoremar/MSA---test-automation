@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prova,,PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi\nLogin_1_LOGIN_Correct_DTH_Wi-Fi,2019-02-26 17:17:11,2019-02-26 17:18:13,"1m - 2,465s",PASSED
+,,,,,,
+Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi,,"Start msa application.
+path application: C:\Users\MSA-testautomation\59.apk",2019-02-26 17:17:11,2019-02-26 17:17:43,"31,798s",PASSED
+"startApplication(""C:\Users\MSA-testautomation\59.apk"", false)",,,2019-02-26 17:17:12,2019-02-26 17:17:43,"31,271s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi,,Dalla homepage atterro nella sezione di Guida Tv ed effettuo un controolo sulla label della top bar.,2019-02-26 17:17:43,2019-02-26 17:17:54,"10,806s",PASSED
+"tap(findTestObject(""Bottom Bar Elements/Guida TV""), 0)",,,2019-02-26 17:17:43,2019-02-26 17:17:47,"3,933s",PASSED
+delay(5),,,2019-02-26 17:17:47,2019-02-26 17:17:52,"5,049s",PASSED
+"verifyElementExist(findTestObject(""Top Bar elements/GUIDA TV""), 0)",,,2019-02-26 17:17:52,2019-02-26 17:17:54,"1,501s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi,,Controllo degli elementi presenti nel contenuto in evidenza.,2019-02-26 17:17:54,2019-02-26 17:17:56,"2,561s",PASSED
+"verifyElementAttributeValue(findTestObject(""Guida Tv/Hero Elements/Immagine""), ""resource-id"", ""it.sky.msa:id/heroImageImageView"", 0)",,Check se esite l'immagine del contenuto in evidenza.,2019-02-26 17:17:54,2019-02-26 17:17:55,"0,561s",PASSED
+"verifyElementText(findTestObject(""Guida Tv/Hero Elements/IN EVIDENZA""), ""IN EVIDENZA"")",,"Check se esite la label ""IN EVIDENZA""",2019-02-26 17:17:55,2019-02-26 17:17:55,"0,482s",PASSED
+"verifyElementExist(findTestObject(""Guida Tv/Hero Elements/Titolo del contenuto""), 0)",,Verifica che esiste il titolo del contenuto in evidenza.,2019-02-26 17:17:55,2019-02-26 17:17:56,"0,345s",PASSED
+"verifyElementExist(findTestObject(""Guida Tv/Hero Elements/Programmazione""), 0)",,Verifica che è presente la programmazione del contenuto.,2019-02-26 17:17:56,2019-02-26 17:17:56,"0,426s",PASSED
+"getText(findTestObject(""Guida Tv/Hero Elements/Programmazione""), 0)",,,2019-02-26 17:17:56,2019-02-26 17:17:56,"0,496s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_4_NAVIGATION_SceltiPerTeQuestaSettimana_DTH_Wi-Fi,,"Navigazione della sezione ""Scelti per te questa settimana""",2019-02-26 17:17:56,2019-02-26 17:18:07,"10,112s",PASSED
+"swipe(200, 800, 400, 200)",,,2019-02-26 17:17:57,2019-02-26 17:17:59,"2,565s",PASSED
+"getText(findTestObject(""Guida Tv/Section Elements/Scelti per te questa settimana""), 0)",,,2019-02-26 17:17:59,2019-02-26 17:18:00,"0,932s",PASSED
+"verifyElementText(findTestObject(""Guida Tv/Section Elements/Scelti per te questa settimana""), ""Scelti per te questa settimana"")",,,2019-02-26 17:18:00,2019-02-26 17:18:01,"0,383s",PASSED
+"swipe(0, 0, 100, 0)",,,2019-02-26 17:18:01,2019-02-26 17:18:03,"2,490s",PASSED
+delay(0),,,2019-02-26 17:18:03,2019-02-26 17:18:03,"0,001s",PASSED
+"swipe(0, 0, -100, 0)",,,2019-02-26 17:18:03,2019-02-26 17:18:06,"2,454s",PASSED
+"print(getElementHeight(findTestObject(""Guida Tv/Section Elements/Scelti per te questa settimana""), 0))",,,2019-02-26 17:18:06,2019-02-26 17:18:06,"0,452s",PASSED
+"print(getElementWidth(findTestObject(""Guida Tv/Section Elements/Scelti per te questa settimana""), 0))",,,2019-02-26 17:18:06,2019-02-26 17:18:07,"0,533s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_5_FUNCTIONALITY_VediTutti_DTH_Wi-Fi,,"Verificare la funzionalità della CTA "" Vedi tutti""",2019-02-26 17:18:07,2019-02-26 17:18:13,"6,217s",PASSED
+"text = getText(findTestObject(""Guida Tv/Section Elements/Sezione programmazione""), 0)",,,2019-02-26 17:18:07,2019-02-26 17:18:07,"0,438s",PASSED
+"tap(findTestObject(""Guida Tv/Section Elements/Vedi tutti""), 0)",,"Tap sulla CTA ""Vedi tutti"".",2019-02-26 17:18:07,2019-02-26 17:18:09,"1,279s",PASSED
+"verifyElementText(findTestObject(""Subsection Elements/Subsection title""), text)",,,2019-02-26 17:18:09,2019-02-26 17:18:09,"0,392s",PASSED
+delay(2),,,2019-02-26 17:18:09,2019-02-26 17:18:11,"2,000s",PASSED
+"tap(findTestObject(""Subsection Elements/Back button""), 0)",,,2019-02-26 17:18:11,2019-02-26 17:18:13,"1,827s",PASSED

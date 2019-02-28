@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prova" time="45" tests="3" failures="0" errors="0">
+   <testsuite name="Prova" tests="3" failures="0" errors="0" time="45" timestamp="2019-02-26 14:04:06" hostname="marco - 10.25.208.80" id="Test Suites/Prova">
+      <properties>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190226_140404"/>
+         <property name="logFiles" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190226_140404\\appium.log, C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190226_140404\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="marco - 10.25.208.80"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G935F"/>
+         <property name="hostAddress" value="10.25.208.80"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="9885f7504651473733"/>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi" classname="Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi" status="PASSED">
+         <system-out><![CDATA[2019-02-26 14:04:07 - [TEST_CASE][PASSED] - Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi: Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi
+
+2019-02-26 14:04:07 - [TEST_STEP][PASSED] - startApplication("C:\Users\MSA-testautomation\59.apk", false): Started app at: 'C:\Users\MSA-testautomation\59.apk'
+
+2019-02-26 14:04:13 - [MESSAGE][INFO] - Appium server started on port 62.912
+
+2019-02-26 14:04:38 - [MESSAGE][PASSED] - Started app at: 'C:\Users\MSA-testautomation\59.apk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi" classname="Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi" status="PASSED">
+         <system-out><![CDATA[2019-02-26 14:04:38 - [TEST_CASE][PASSED] - Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi: Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV_DTH_Wi-Fi
+
+2019-02-26 14:04:38 - [TEST_STEP][PASSED] - tap(findTestObject("Bottom Bar Elements/Guida TV"), 0): Tapped on element 'Object Repository/Bottom Bar Elements/Guida TV'
+
+2019-02-26 14:04:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-26 14:04:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Bottom Bar Elements/Guida TV'
+
+2019-02-26 14:04:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-26 14:04:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-26 14:04:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Top Bar elements/GUIDA TV"), 0): Element 'Object Repository/Top Bar elements/GUIDA TV' is exist
+
+2019-02-26 14:04:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-26 14:04:49 - [MESSAGE][PASSED] - Element 'Object Repository/Top Bar elements/GUIDA TV' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi" classname="Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi" status="PASSED">
+         <system-out><![CDATA[2019-02-26 14:04:49 - [TEST_CASE][PASSED] - Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi: Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi
+
+2019-02-26 14:04:49 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Guida Tv/Hero Elements/Immagine"), "resource-id", "it.sky.msa:id/heroImageImageView", 0): Object 'Object Repository/Guida Tv/Hero Elements/Immagine' has attribute 'resource-id' with value 'it.sky.msa:id/heroImageImageView'
+
+2019-02-26 14:04:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-26 14:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Guida Tv/Hero Elements/Immagine' has attribute 'resource-id' with value 'it.sky.msa:id/heroImageImageView'
+
+2019-02-26 14:04:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Guida Tv/Hero Elements/IN EVIDENZA"), "IN EVIDENZA"): Actual text and expected text of test object 'Object Repository/Guida Tv/Hero Elements/IN EVIDENZA' are matched.
+
+2019-02-26 14:04:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Guida Tv/Hero Elements/IN EVIDENZA' are matched.
+
+2019-02-26 14:04:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Guida Tv/Hero Elements/Titolo del contenuto"), 0): Element 'Object Repository/Guida Tv/Hero Elements/Titolo del contenuto' is exist
+
+2019-02-26 14:04:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-26 14:04:51 - [MESSAGE][PASSED] - Element 'Object Repository/Guida Tv/Hero Elements/Titolo del contenuto' is exist
+
+2019-02-26 14:04:51 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Guida Tv/Hero Elements/Programmazione"), 0): Element 'Object Repository/Guida Tv/Hero Elements/Programmazione' is exist
+
+2019-02-26 14:04:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-26 14:04:51 - [MESSAGE][PASSED] - Element 'Object Repository/Guida Tv/Hero Elements/Programmazione' is exist
+
+2019-02-26 14:04:51 - [TEST_STEP][PASSED] - getText(findTestObject("Guida Tv/Hero Elements/Programmazione"), 0): Text of element 'Object Repository/Guida Tv/Hero Elements/Programmazione' is: 'Oggi alle 06:00'
+
+2019-02-26 14:04:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-26 14:04:52 - [MESSAGE][PASSED] - Text of element 'Object Repository/Guida Tv/Hero Elements/Programmazione' is: 'Oggi alle 06:00']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-26 14:04:06 - [TEST_SUITE][PASSED] - Prova: Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero_DTH_Wi-Fi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

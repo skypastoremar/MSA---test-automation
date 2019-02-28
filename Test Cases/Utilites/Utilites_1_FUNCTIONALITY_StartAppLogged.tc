@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Start msa application.
+path application: C:\Users\MSA-testautomation\59.apk</description>
+   <name>Utilites_1_FUNCTIONALITY_StartAppLogged</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae32e7e2-4ef6-4dc7-8069-ce8a3055b988</testCaseGuid>
+</TestCaseEntity>

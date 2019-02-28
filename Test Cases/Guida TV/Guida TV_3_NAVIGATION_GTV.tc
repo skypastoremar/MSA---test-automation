@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Dalla homepage atterro nella sezione di Guida Tv ed effettuo un controolo sulla label della top bar.</description>
+   <name>Guida TV_3_NAVIGATION_GTV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7e3c5aa-3b08-4395-b5a2-76e08bc88cbf</testCaseGuid>
+</TestCaseEntity>

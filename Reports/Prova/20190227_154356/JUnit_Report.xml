@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prova" time="90" tests="4" failures="1" errors="0">
+   <testsuite name="Prova" tests="4" failures="1" errors="0" time="90" timestamp="2019-02-27 15:43:59" hostname="marco - 10.25.208.80" id="Test Suites/Prova">
+      <properties>
+         <property name="deviceName" value="HUAWEI BLA-L09 (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_154356"/>
+         <property name="logFiles" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_154356\\appium.log, C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_154356\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_154356\\1551278712102.png, C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_154356\\1551278713845.png"/>
+         <property name="hostName" value="marco - 10.25.208.80"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="BLA-L09"/>
+         <property name="hostAddress" value="10.25.208.80"/>
+         <property name="deviceManufacturer" value="HUAWEI"/>
+         <property name="deviceId" value="GAB7N17B02004406"/>
+         <property name="deviceName" value="HUAWEI BLA-L09 (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged" classname="Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged" status="PASSED">
+         <system-out><![CDATA[2019-02-27 15:43:59 - [TEST_CASE][PASSED] - Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged: Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged
+
+2019-02-27 15:44:00 - [TEST_STEP][PASSED] - startApplication("C:\\Users\\MSA-testautomation\\59.apk", false, CONTINUE_ON_FAILURE): Started app at: 'C:\Users\MSA-testautomation\59.apk'
+
+2019-02-27 15:44:05 - [MESSAGE][INFO] - Appium server started on port 62.174
+
+2019-02-27 15:44:24 - [MESSAGE][PASSED] - Started app at: 'C:\Users\MSA-testautomation\59.apk'
+
+2019-02-27 15:44:24 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Bottom Bar Elements/Home"), 30): Element 'Object Repository/Bottom Bar Elements/Home' is exist
+
+2019-02-27 15:44:28 - [MESSAGE][PASSED] - Element 'Object Repository/Bottom Bar Elements/Home' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV" classname="Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV" status="PASSED">
+         <system-out><![CDATA[2019-02-27 15:44:28 - [TEST_CASE][PASSED] - Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV: Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV
+
+2019-02-27 15:44:29 - [TEST_STEP][PASSED] - tap(findTestObject("Bottom Bar Elements/Guida TV"), 60): Tapped on element 'Object Repository/Bottom Bar Elements/Guida TV'
+
+2019-02-27 15:44:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Bottom Bar Elements/Guida TV'
+
+2019-02-27 15:44:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Guida Tv/Hero Elements/Immagine"), 30): Element 'Object Repository/Guida Tv/Hero Elements/Immagine' is present
+
+2019-02-27 15:44:37 - [MESSAGE][PASSED] - Element 'Object Repository/Guida Tv/Hero Elements/Immagine' is present
+
+2019-02-27 15:44:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Top Bar elements/GUIDA TV"), 30): Element 'Object Repository/Top Bar elements/GUIDA TV' is exist
+
+2019-02-27 15:44:37 - [MESSAGE][PASSED] - Element 'Object Repository/Top Bar elements/GUIDA TV' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR" classname="Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Top Bar elements/Profile' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Top Bar elements/Profile' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:621)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at Guida TV_1_NAVIGATION_TOPBAR.run(Guida TV_1_NAVIGATION_TOPBAR:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551278636564.run(TempTestSuite1551278636564.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-27 15:44:37 - [TEST_CASE][FAILED] - Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR: Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Top Bar elements/Profile' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Top Bar elements/Profile' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:621)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at Guida TV_1_NAVIGATION_TOPBAR.run(Guida TV_1_NAVIGATION_TOPBAR:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551278636564.run(TempTestSuite1551278636564.groovy:36)
+
+
+2019-02-27 15:44:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Guida Tv/Section Elements/Scelti per te questa settimana"), 30): Element 'Object Repository/Guida Tv/Section Elements/Scelti per te questa settimana' is present
+
+2019-02-27 15:44:37 - [MESSAGE][PASSED] - Element 'Object Repository/Guida Tv/Section Elements/Scelti per te questa settimana' is present
+
+2019-02-27 15:44:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Navigation Bar Elements/Programmazione"), 30): Element 'Object Repository/Navigation Bar Elements/Programmazione' is exist
+
+2019-02-27 15:44:42 - [MESSAGE][PASSED] - Element 'Object Repository/Navigation Bar Elements/Programmazione' is exist
+
+2019-02-27 15:44:42 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("Top Bar elements/Profile"), 30): verifyElementExist(findTestObject("Top Bar elements/Profile"), 30) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Top Bar elements/Profile' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Top Bar elements/Profile' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:621)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at Guida TV_1_NAVIGATION_TOPBAR.run(Guida TV_1_NAVIGATION_TOPBAR:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551278636564.run(TempTestSuite1551278636564.groovy:36)
+
+
+2019-02-27 15:45:13 - [MESSAGE][FAILED] - Element 'Object Repository/Top Bar elements/Profile' not found
+[[ATTACHMENT|C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_154356\\1551278712102.png]]
+
+2019-02-27 15:45:15 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/Top Bar elements/Profile' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Top Bar elements/Profile' not found)
+[[ATTACHMENT|C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_154356\\1551278713845.png]]
+
+2019-02-27 15:45:15 - [MESSAGE][FAILED] - verifyElementExist(findTestObject("Top Bar elements/Profile"), 30) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Top Bar elements/Profile' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Top Bar elements/Profile' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:621)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at Guida TV_1_NAVIGATION_TOPBAR.run(Guida TV_1_NAVIGATION_TOPBAR:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551278636564.run(TempTestSuite1551278636564.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-27 15:44:37 - [TEST_CASE][FAILED] - Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR: Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Top Bar elements/Profile' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Top Bar elements/Profile' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:621)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at Guida TV_1_NAVIGATION_TOPBAR.run(Guida TV_1_NAVIGATION_TOPBAR:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551278636564.run(TempTestSuite1551278636564.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero" classname="Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero" status="PASSED">
+         <system-out><![CDATA[2019-02-27 15:45:15 - [TEST_CASE][PASSED] - Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero: Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero
+
+2019-02-27 15:45:15 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Guida Tv/Hero Elements/Immagine"), "resource-id", "it.sky.msa:id/heroImageImageView", 60): Object 'Object Repository/Guida Tv/Hero Elements/Immagine' has attribute 'resource-id' with value 'it.sky.msa:id/heroImageImageView'
+
+2019-02-27 15:45:16 - [MESSAGE][PASSED] - Object 'Object Repository/Guida Tv/Hero Elements/Immagine' has attribute 'resource-id' with value 'it.sky.msa:id/heroImageImageView'
+
+2019-02-27 15:45:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Guida Tv/Hero Elements/IN EVIDENZA"), "IN EVIDENZA"): Actual text and expected text of test object 'Object Repository/Guida Tv/Hero Elements/IN EVIDENZA' are matched.
+
+2019-02-27 15:45:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Guida Tv/Hero Elements/IN EVIDENZA' are matched.
+
+2019-02-27 15:45:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Guida Tv/Hero Elements/Titolo del contenuto"), 30): Element 'Object Repository/Guida Tv/Hero Elements/Titolo del contenuto' is exist
+
+2019-02-27 15:45:16 - [MESSAGE][PASSED] - Element 'Object Repository/Guida Tv/Hero Elements/Titolo del contenuto' is exist
+
+2019-02-27 15:45:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Guida Tv/Hero Elements/Programmazione"), 30): Element 'Object Repository/Guida Tv/Hero Elements/Programmazione' is exist
+
+2019-02-27 15:45:16 - [MESSAGE][PASSED] - Element 'Object Repository/Guida Tv/Hero Elements/Programmazione' is exist
+
+2019-02-27 15:45:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Guida Tv/Hero Elements/Logo canale"), "resource-id", "it.sky.msa:id/heroChannelLogoImageView", 60): Object 'Object Repository/Guida Tv/Hero Elements/Logo canale' has attribute 'resource-id' with value 'it.sky.msa:id/heroChannelLogoImageView'
+
+2019-02-27 15:45:17 - [MESSAGE][PASSED] - Object 'Object Repository/Guida Tv/Hero Elements/Logo canale' has attribute 'resource-id' with value 'it.sky.msa:id/heroChannelLogoImageView']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_4_NAVIGATION_SceltiPerTeQuestaSettimana" classname="Test Cases/Guida TV/Guida TV_4_NAVIGATION_SceltiPerTeQuestaSettimana" status="PASSED">
+         <system-out><![CDATA[2019-02-27 15:45:17 - [TEST_CASE][PASSED] - Test Cases/Guida TV/Guida TV_4_NAVIGATION_SceltiPerTeQuestaSettimana: Test Cases/Guida TV/Guida TV_4_NAVIGATION_SceltiPerTeQuestaSettimana
+
+2019-02-27 15:45:17 - [TEST_STEP][PASSED] - swipe(0, 1750, 0, 200, STOP_ON_FAILURE): Swiped from 0,1.750 to 0,200
+
+2019-02-27 15:45:19 - [MESSAGE][PASSED] - Swiped from 0,1.750 to 0,200
+
+2019-02-27 15:45:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-27 15:45:29 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-27 15:43:59 - [TEST_SUITE][FAILED] - Prova: Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Top Bar elements/Profile' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Top Bar elements/Profile' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:621)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at Guida TV_1_NAVIGATION_TOPBAR.run(Guida TV_1_NAVIGATION_TOPBAR:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551278636564.run(TempTestSuite1551278636564.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-27 15:43:59 - [TEST_SUITE][FAILED] - Prova: Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/Top Bar elements/Profile' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Top Bar elements/Profile' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:621)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$0.call(Unknown Source)
+	at Guida TV_1_NAVIGATION_TOPBAR.run(Guida TV_1_NAVIGATION_TOPBAR:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551278636564.run(TempTestSuite1551278636564.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

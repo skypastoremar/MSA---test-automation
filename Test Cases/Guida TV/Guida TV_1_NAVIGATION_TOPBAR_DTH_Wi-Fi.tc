@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Navigazione delle sezioni presenti nella homepage di Guida Tv. Check della sezione di Programmazione e della sezione di Sky On Demand.</description>
-   <name>Guida TV_1_NAVIGATION_TOPBAR_DTH_Wi-Fi</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f1d952d7-c3ce-4a60-b483-630526a525e0</testCaseGuid>
-</TestCaseEntity>

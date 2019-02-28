@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prova,,PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi\nLogin_1_LOGIN_Correct_DTH_Wi-Fi,2019-02-26 11:12:01,2019-02-26 11:13:22,"1m - 20,866s",FAILED
+,,,,,,
+Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartApp_DTH_Wi-Fi,,"Start msa application.
+path application: C:\Users\MSA-testautomation\59.apk",2019-02-26 11:12:02,2019-02-26 11:12:30,"28,657s",PASSED
+"startApplication(""C:\Users\MSA-testautomation\59.apk"", false)",,,2019-02-26 11:12:02,2019-02-26 11:12:30,"28,128s",PASSED
+,,,,,,
+Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR_DTH_Wi-Fi,,Navigazione delle sezioni presenti nella homepage di Guida Tv. Check della sezione di Programmazione e della sezione di Sky On Demand.,2019-02-26 11:12:30,2019-02-26 11:13:22,"51,195s",FAILED
+delay(2),,Delay 2,2019-02-26 11:12:31,2019-02-26 11:12:33,"2,082s",PASSED
+"checkElement(findTestObject(""Bottom Bar Elements/Home""), 0)",,Effettuo un check nella home page.,2019-02-26 11:12:33,2019-02-26 11:12:35,"1,778s",PASSED
+"verifyElementExist(findTestObject(""Bottom Bar Elements/Home""), 0)",,Verifica della label homepage.,2019-02-26 11:12:35,2019-02-26 11:12:35,"0,721s",PASSED
+"tap(findTestObject(""Bottom Bar Elements/Guida TV""), 0)",,Effettuo un tap sulla bottom bar di Guida TV,2019-02-26 11:12:35,2019-02-26 11:12:37,"1,636s",PASSED
+"checkElement(findTestObject(""Top Bar elements/GUIDA TV""), 0)",,Effettuo check sulla Home Page di Guida TV.,2019-02-26 11:12:37,2019-02-26 11:12:44,"7,178s",PASSED
+"verifyElementExist(findTestObject(""Top Bar elements/GUIDA TV""), 0)",,Verifica della label Guida TV.,2019-02-26 11:12:44,2019-02-26 11:12:45,"0,441s",PASSED
+delay(2),,Delay 2,2019-02-26 11:12:45,2019-02-26 11:12:47,"2,002s",PASSED
+"tap(findTestObject(""Navigation Bar Elements/Sky On Demand""), 0)",,Effettuo un tap nella sezione Sky On Demand.,2019-02-26 11:12:47,2019-02-26 11:13:22,"34,917s",FAILED

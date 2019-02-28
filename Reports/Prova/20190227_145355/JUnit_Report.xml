@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prova" time="100" tests="4" failures="0" errors="0">
+   <testsuite name="Prova" tests="4" failures="0" errors="0" time="100" timestamp="2019-02-27 14:53:57" hostname="marco - 10.25.208.80" id="Test Suites/Prova">
+      <properties>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_145355"/>
+         <property name="logFiles" value="C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_145355\\appium.log, C:\\Users\\marco\\Katalon Studio\\MSA-testautomation\\Reports\\Prova\\20190227_145355\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="marco - 10.25.208.80"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G935F"/>
+         <property name="hostAddress" value="10.25.208.80"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="9885f7504651473733"/>
+         <property name="deviceName" value="samsung SM-G935F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged" classname="Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged" status="PASSED">
+         <system-out><![CDATA[2019-02-27 14:53:58 - [TEST_CASE][PASSED] - Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged: Test Cases/Pre Login/PreLogin_1_FUNCTIONALITY_StartAppLogged
+
+2019-02-27 14:53:58 - [TEST_STEP][PASSED] - startApplication("C:\\Users\\MSA-testautomation\\59.apk", false, CONTINUE_ON_FAILURE): Started app at: 'C:\Users\MSA-testautomation\59.apk'
+
+2019-02-27 14:54:04 - [MESSAGE][INFO] - Appium server started on port 52.083
+
+2019-02-27 14:54:26 - [MESSAGE][PASSED] - Started app at: 'C:\Users\MSA-testautomation\59.apk'
+
+2019-02-27 14:54:26 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Bottom Bar Elements/Home"), 30): Element 'Object Repository/Bottom Bar Elements/Home' is exist
+
+2019-02-27 14:54:29 - [MESSAGE][PASSED] - Element 'Object Repository/Bottom Bar Elements/Home' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV" classname="Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV" status="PASSED">
+         <system-out><![CDATA[2019-02-27 14:54:29 - [TEST_CASE][PASSED] - Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV: Test Cases/Guida TV/Guida TV_3_NAVIGATION_GTV
+
+2019-02-27 14:54:29 - [TEST_STEP][PASSED] - tap(findTestObject("Bottom Bar Elements/Guida TV"), 60): Tapped on element 'Object Repository/Bottom Bar Elements/Guida TV'
+
+2019-02-27 14:54:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Bottom Bar Elements/Guida TV'
+
+2019-02-27 14:54:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Guida Tv/Hero Elements/Immagine"), 30): Object Object Repository/Guida Tv/Hero Elements/Immagine not found
+
+2019-02-27 14:55:01 - [MESSAGE][WARNING] - Object Object Repository/Guida Tv/Hero Elements/Immagine not found
+
+2019-02-27 14:55:01 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Top Bar elements/GUIDA TV"), 30): Element 'Object Repository/Top Bar elements/GUIDA TV' is exist
+
+2019-02-27 14:55:02 - [MESSAGE][PASSED] - Element 'Object Repository/Top Bar elements/GUIDA TV' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR" classname="Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR" status="PASSED">
+         <system-out><![CDATA[2019-02-27 14:55:02 - [TEST_CASE][PASSED] - Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR: Test Cases/Guida TV/Guida TV_1_NAVIGATION_TOPBAR
+
+2019-02-27 14:55:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Guida Tv/Section Elements/Scelti per te questa settimana"), 30): Object Object Repository/Guida Tv/Section Elements/Scelti per te questa settimana not found
+
+2019-02-27 14:55:32 - [MESSAGE][WARNING] - Object Object Repository/Guida Tv/Section Elements/Scelti per te questa settimana not found
+
+2019-02-27 14:55:32 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Navigation Bar Elements/Programmazione"), 30): Element 'Object Repository/Navigation Bar Elements/Programmazione' is exist
+
+2019-02-27 14:55:32 - [MESSAGE][PASSED] - Element 'Object Repository/Navigation Bar Elements/Programmazione' is exist
+
+2019-02-27 14:55:32 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Top Bar elements/Profile"), 30): Element 'Object Repository/Top Bar elements/Profile' is exist
+
+2019-02-27 14:55:33 - [MESSAGE][PASSED] - Element 'Object Repository/Top Bar elements/Profile' is exist
+
+2019-02-27 14:55:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Top Bar elements/Search"), 30): Element 'Object Repository/Top Bar elements/Search' is exist
+
+2019-02-27 14:55:33 - [MESSAGE][PASSED] - Element 'Object Repository/Top Bar elements/Search' is exist
+
+2019-02-27 14:55:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Top Bar elements/Assistenza"), 30): Element 'Object Repository/Top Bar elements/Assistenza' is exist
+
+2019-02-27 14:55:33 - [MESSAGE][PASSED] - Element 'Object Repository/Top Bar elements/Assistenza' is exist
+
+2019-02-27 14:55:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Top Bar elements/GUIDA TV"), "GUIDA TV"): Actual text and expected text of test object 'Object Repository/Top Bar elements/GUIDA TV' are matched.
+
+2019-02-27 14:55:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Top Bar elements/GUIDA TV' are matched.
+
+2019-02-27 14:55:33 - [TEST_STEP][PASSED] - tap(findTestObject("Navigation Bar Elements/Sky On Demand"), 60): Tapped on element 'Object Repository/Navigation Bar Elements/Sky On Demand'
+
+2019-02-27 14:55:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navigation Bar Elements/Sky On Demand'
+
+2019-02-27 14:55:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Guida Tv/Section Elements/SCELTI PER TE"), 30): Element 'Object Repository/Guida Tv/Section Elements/SCELTI PER TE' is present
+
+2019-02-27 14:55:35 - [MESSAGE][PASSED] - Element 'Object Repository/Guida Tv/Section Elements/SCELTI PER TE' is present
+
+2019-02-27 14:55:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Navigation Bar Elements/Sky On Demand"), 30): Element 'Object Repository/Navigation Bar Elements/Sky On Demand' is exist
+
+2019-02-27 14:55:35 - [MESSAGE][PASSED] - Element 'Object Repository/Navigation Bar Elements/Sky On Demand' is exist
+
+2019-02-27 14:55:35 - [TEST_STEP][PASSED] - tap(findTestObject("Navigation Bar Elements/Programmazione"), 60): Tapped on element 'Object Repository/Navigation Bar Elements/Programmazione'
+
+2019-02-27 14:55:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navigation Bar Elements/Programmazione'
+
+2019-02-27 14:55:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Guida Tv/Section Elements/Scelti per te questa settimana"), 30): Element 'Object Repository/Guida Tv/Section Elements/Scelti per te questa settimana' is present
+
+2019-02-27 14:55:36 - [MESSAGE][PASSED] - Element 'Object Repository/Guida Tv/Section Elements/Scelti per te questa settimana' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero" classname="Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero" status="PASSED">
+         <system-out><![CDATA[2019-02-27 14:55:36 - [TEST_CASE][PASSED] - Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero: Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero
+
+2019-02-27 14:55:36 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Guida Tv/Hero Elements/Immagine"), "resource-id", "it.sky.msa:id/heroImageImageView", 60): Object 'Object Repository/Guida Tv/Hero Elements/Immagine' has attribute 'resource-id' with value 'it.sky.msa:id/heroImageImageView'
+
+2019-02-27 14:55:37 - [MESSAGE][PASSED] - Object 'Object Repository/Guida Tv/Hero Elements/Immagine' has attribute 'resource-id' with value 'it.sky.msa:id/heroImageImageView'
+
+2019-02-27 14:55:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Guida Tv/Hero Elements/IN EVIDENZA"), "IN EVIDENZA"): Actual text and expected text of test object 'Object Repository/Guida Tv/Hero Elements/IN EVIDENZA' are matched.
+
+2019-02-27 14:55:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Guida Tv/Hero Elements/IN EVIDENZA' are matched.
+
+2019-02-27 14:55:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Guida Tv/Hero Elements/Titolo del contenuto"), 30): Element 'Object Repository/Guida Tv/Hero Elements/Titolo del contenuto' is exist
+
+2019-02-27 14:55:37 - [MESSAGE][PASSED] - Element 'Object Repository/Guida Tv/Hero Elements/Titolo del contenuto' is exist
+
+2019-02-27 14:55:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Guida Tv/Hero Elements/Programmazione"), 30): Element 'Object Repository/Guida Tv/Hero Elements/Programmazione' is exist
+
+2019-02-27 14:55:37 - [MESSAGE][PASSED] - Element 'Object Repository/Guida Tv/Hero Elements/Programmazione' is exist
+
+2019-02-27 14:55:37 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Guida Tv/Hero Elements/Logo canale"), "resource-id", "it.sky.msa:id/heroChannelLogoImageView", 60): Object 'Object Repository/Guida Tv/Hero Elements/Logo canale' has attribute 'resource-id' with value 'it.sky.msa:id/heroChannelLogoImageView'
+
+2019-02-27 14:55:38 - [MESSAGE][PASSED] - Object 'Object Repository/Guida Tv/Hero Elements/Logo canale' has attribute 'resource-id' with value 'it.sky.msa:id/heroChannelLogoImageView']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-27 14:53:57 - [TEST_SUITE][PASSED] - Prova: Test Cases/Guida TV/Guida TV_2_NAVIGATION_Hero]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
